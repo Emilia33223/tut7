@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        Car myCar = new Car(19);
+        myCar.start();
+        myCar.stop();
+        System.out.println("Number of seats: " + myCar.getNumberOfSeats());
+    }
+}
+
