@@ -3,4 +3,9 @@ public class Cat extends Feline {
     public void makeNoise() {
         System.out.println("Cat meows");
     }
+
+    @Override
+    public void roam(){
+        System.out.println("Cat is in Feline Family");
+    }
 }
